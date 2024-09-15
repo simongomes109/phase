@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Mon Produit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="phase1.html">Accueil</a></li>
+                <li><a href="phase2.html">Fonctionnalités</a></li>
+                <li><a href="phase3.html">Inscription</a></li>
+                <li><a href="phase4.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="signup">
+            <h1>Inscrivez-vous pour en savoir plus</h1>
+            <form action="submit_signup.php" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit" class="cta-button">Inscrivez-vous</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Entreprise. Tous droits réservés.</p>
+        <a href="contact.html" class="cta-button">Nous contacter</a>
+    </footer>
+</body>
+</html>
